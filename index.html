@@ -194,7 +194,30 @@
                     <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                     <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                   </div>
-                  <a class="text-lg font-bold text-[#F85559]" href="#">Details</a>
+                  
+                  <!-- Open the modal using ID.showModal() method -->
+                    <button class="btn bg-transparent border-none text-[#F85559] text-lg font-bold normal-case" onclick="my_modal_1.showModal()">Details</button>
+                    <dialog id="my_modal_1" class="modal">
+                    <form method="dialog" class="modal-box">
+                        <div>
+                            <img class="mx-auto" src="images/fruit6.png" alt="">
+                            <h3 class="font-bold text-lg">Apples</h3>
+                            <p class="py-4">Eat an Apple everyday keep a Doctor </p>
+                            <div class="rating">
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                              </div>
+                            <!-- if there is a button in form, it will close the modal -->
+                        <div class="gap-5">
+                            <button class="btn bg-transparent border-[#F85559] text-[#F85559]">Close</button>
+
+                                <button class="btn bg-[#F85559] text-white">Buy Now</button>
+                        </div>
+                    </form>
+                    </dialog>
                 </div>
             </div>
             <!-- card-2 -->
@@ -203,7 +226,7 @@
                   <img src="images/fruit7.png" alt="Shoes" class="rounded-xl" />
                 </figure>
                 <div class="card-body items-center text-center">
-
+                    
                   <p class="text-2xl font-bold border-b-2">12.90$-18.85$</p>
                   <h3 class="card-title text-base font-medium text-[#12121299]">Orange</h3>
                   <!-- star  -->
@@ -214,7 +237,7 @@
                     <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                     <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                   </div>
-                  <a class="text-lg font-bold text-[#F85559]" href="#">Details</a>
+                  
                 </div>
             </div>
             <!-- card-3 -->
