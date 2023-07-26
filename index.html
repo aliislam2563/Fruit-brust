@@ -15,8 +15,8 @@
     <link href="https://cdn.jsdelivr.net/npm/daisyui@3.4.0/dist/full.css" rel="stylesheet" type="text/css" />
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class="font-lato mx-5 md:mx-0">
-    <header class="container mx-auto ">
+<body class="font-lato ">
+    <header class="container px-5 md:mx-auto ">
         <!-- navbar -->
         <nav class="flex flex-col gap-5 md:flex-row justify-between items-center rounded-full py-8 px-12 my-14 md:bg-[#F85559]">
             <!-- nav-menu  -->
@@ -126,7 +126,7 @@
 
     </header>
 
-    <main class="container mx-auto space-y-11">
+    <main class="container px-5 mx-auto space-y-11">
 
         <!-- Deal of the day -->
         <section class=" flex flex-col gap-5 text-center md:text-left md:flex-row justify-between items-center">
@@ -196,8 +196,8 @@
                   </div>
                   <!-- Open the modal using ID.showModal() method -->
                     <button class="btn bg-transparent border-none text-[#F85559] text-lg font-bold normal-case" onclick="my_modal_1.showModal()">Details</button>
-                    <dialog id="my_modal_1" class="modal">
-                    <form method="dialog" class="modal-box">
+                    <dialog id="my_modal_1" class="">
+                    <form method="dialog" class="p-5 rounded-lg drop-shadow-lg">
                         <div>
                             <img class="mx-auto" src="images/fruit6.png" alt="">
                             <h3 class="font-bold text-lg">Apples</h3>
@@ -238,12 +238,12 @@
                   </div>
                   <!-- Open the modal using ID.showModal() method -->
                   <button class="btn bg-transparent border-none text-[#F85559] text-lg font-bold normal-case" onclick="my_modal_2.showModal()">Details</button>
-                  <dialog id="my_modal_2" class="modal">
-                  <form method="dialog" class="modal-box">
+                  <dialog id="my_modal_2" class="">
+                  <form method="dialog" class="p-5 rounded-lg drop-shadow-lg">
                       <div>
                           <img class="mx-auto" src="images/fruit7.png" alt="">
                           <h3 class="font-bold text-lg">Orange</h3>
-                          <p class="py-4">Eat an Orange everyday keep a Doctor </p>
+                          <p class="py-4">Eat an Apple everyday keep a Doctor </p>
                           <div class="rating">
                               <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                               <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
@@ -280,12 +280,12 @@
                   </div>
                   <!-- Open the modal using ID.showModal() method -->
                   <button class="btn bg-transparent border-none text-[#F85559] text-lg font-bold normal-case" onclick="my_modal_3.showModal()">Details</button>
-                  <dialog id="my_modal_3" class="modal">
-                  <form method="dialog" class="modal-box">
+                  <dialog id="my_modal_3" class="">
+                  <form method="dialog" class="p-5 rounded-lg drop-shadow-lg">
                       <div>
                           <img class="mx-auto" src="images/fruit8.png" alt="">
                           <h3 class="font-bold text-lg">Red Dragon</h3>
-                          <p class="py-4">wanna eat Dragon? i won't give u </p>
+                          <p class="py-4">Eat an Apple everyday keep a Doctor </p>
                           <div class="rating">
                               <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                               <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
@@ -322,12 +322,12 @@
                   </div>
                   <!-- Open the modal using ID.showModal() method -->
                   <button class="btn bg-transparent border-none text-[#F85559] text-lg font-bold normal-case" onclick="my_modal_4.showModal()">Details</button>
-                  <dialog id="my_modal_4" class="modal">
-                  <form method="dialog" class="modal-box">
+                  <dialog id="my_modal_4" class="">
+                  <form method="dialog" class="p-5 rounded-lg drop-shadow-lg">
                       <div>
                           <img class="mx-auto" src="images/fruit9.png" alt="">
                           <h3 class="font-bold text-lg">Banana</h3>
-                          <p class="py-4">There is many types of banana. which one u want</p>
+                          <p class="py-4">Eat an Apple everyday keep a Doctor </p>
                           <div class="rating">
                               <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                               <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
@@ -584,7 +584,7 @@
                 <div class="space-y-8">
                             <!-- about section 1 -->
                         <div class="flex gap-6">
-                            <img class="p-5 rounded-full bg-slate-300" src="icon/group 1.svg" alt="">
+                            <img class="p-5 h-1/2 rounded-full bg-slate-300" src="icon/group 1.svg" alt="">
                             <div>
                                 <h1 class="text-[#121212] text-2xl font-bold">Dedicated Team</h1>
                                 <hr class=" w-1/2">
@@ -595,7 +595,7 @@
                         </div>
                         <!-- about section 2 -->
                         <div class="flex gap-6">
-                            <img class="p-5 rounded-full bg-slate-300" src="icon/love 1.svg" alt="">
+                            <img class="p-5 h-1/2 rounded-full bg-slate-300" src="icon/love 1.svg" alt="">
                             <div>
                                 <h1 class="text-[#121212] text-2xl font-bold">Fresh is Best</h1>
                                 <hr class=" w-1/2">
@@ -606,7 +606,7 @@
                         </div>
                         <!-- about section 3 -->
                         <div class="flex gap-6">
-                            <img class="p-5 rounded-full bg-slate-300" src="icon/gift-box 1.svg" alt="">
+                            <img class="p-5 h-1/2 rounded-full bg-slate-300" src="icon/gift-box 1.svg" alt="">
                             <div>
                                 <h1 class="text-[#121212] text-2xl font-bold">Fresh is Best</h1>
                                 <hr class=" w-1/2">
@@ -635,7 +635,7 @@
                             Professional employees are there for you to pick the most amazing and fresh fruits.
                         </p>
                     </div>
-                    <img class="p-5 rounded-full bg-slate-300" src="icon/like 1.svg" alt="">
+                    <img class="p-5 h-1/2 rounded-full bg-slate-300" src="icon/like 1.svg" alt="">
                 </div>
                 <!-- about section 2 -->
                 <div class="flex gap-6">
@@ -647,7 +647,7 @@
                             Professional employees are there for you to pick the most amazing and fresh fruits.
                         </p>
                     </div>
-                    <img class="p-5 rounded-full bg-slate-300" src="icon/ice-cream 1.svg" alt="">
+                    <img class="p-5 h-1/2 rounded-full bg-slate-300" src="icon/ice-cream 1.svg" alt="">
                 </div>
                 <!-- about section 3 -->
                 <div class="flex gap-6">
@@ -659,7 +659,7 @@
                             Professional employees are there for you to pick the most amazing and fresh fruits.
                         </p>
                     </div>
-                    <img class="p-5 rounded-full bg-slate-300" src="icon/like 1.svg" alt="">
+                    <img class="p-5 h-1/2 rounded-full bg-slate-300" src="icon/like 1.svg" alt="">
                 </div>
                 
             </div>
